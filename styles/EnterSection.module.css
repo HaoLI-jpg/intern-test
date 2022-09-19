@@ -1,33 +1,64 @@
 .bg {
-    background-image: url(../public/assets/1.png);
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    background-size: cover;
+  background: linear-gradient(0deg, #79858C, #79858C), url(../public/assets/1.png);
+  background-blend-mode: hue, normal;
+  height: 100%;
+  width: 100%;
+  position:fixed;
+  z-index: -10;
+  background-size: cover;
 
-    -webkit-animation: myfirst 2s ; /* Chrome, Safari, Opera */
-    animation: myfirst 2s ;
-  }
-
-  /* Chrome, Safari, Opera */
-  @-webkit-keyframes myfirst {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
-
-  /* Standard syntax */
-  @keyframes myfirst {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
-
-
-.test {
-    margin-top: 10%;
-    text-decoration: underline;
+  -webkit-animation: myfirst 1s ; /* Chrome, Safari, Opera */
+  animation: myfirst 1s ;
 }
 
-.logo {
-    padding-inline: 3.75rem;
-    margin-top: 55.375rem;
+@-webkit-keyframes myfirst {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
+
+/* Standard syntax */
+@keyframes myfirst {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+
+.infoDiv {
+  background: linear-gradient(180deg, rgba(14, 18, 25, 0) 0%, #0E1219 36.72%);
+  padding-inline: 3.75rem;
+  margin-top: 55.375rem;
+  height: 12.5rem;
+}
+
+.infoOuter {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  text-align: justify;
+
+}
+
+.infoInnerLeft {
+  text-align: start;
+}
+
+.infoInnerMid {
+  text-align: center;
+}
+
+.infoInnerRight {
+  text-align: right;
+}
+
+.infoFont {
+  font-family: 'Oxygen Mono';
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+

@@ -1,0 +1,56 @@
+.container {
+    position:fixed;
+}
+
+.bgImage {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../public/assets/2.png');
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+
+.bg {
+    background: #8FA0A7;
+    height: 200%;
+    width: 100%;
+    position: fixed;
+}
+
+.meshBox {
+    margin-top: -127.5rem;
+}
+
+.mesh {
+}
+
+.imageGradient {
+    background: linear-gradient(180deg, #0E1219 0%, rgba(14, 18, 25, 0) 15.75%, rgba(14, 18, 25, 0) 83.99%, #0E1219 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    height: 50%;
+}
+
+.bgGradient {
+    background: linear-gradient(180deg, rgba(14, 18, 25, 0) 0%, #0E1219 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    height: 50%;
+}
+
+.test {
+    position: fixed;
+    color: white;
+    margin-top: 5.688rem;
+    margin-left: 3.625rem;
+
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 84px;
+    line-height: 76px;
+    /* or 90% */
+
+    text-transform: uppercase;
+}

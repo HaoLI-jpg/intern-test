@@ -1,0 +1,12 @@
+.gradient {
+    background: linear-gradient(180deg, rgba(14, 18, 25, 0) 0%, #0E1219 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    display: flex;
+    height: 36.25rem;
+}
+
+.bg {
+    background: #8FA0A7;
+    position: relative;
+    height: 100%;
+}
