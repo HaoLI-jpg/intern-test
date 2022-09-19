@@ -1,0 +1,33 @@
+.bg {
+    background-image: url(../public/assets/1.png);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+
+    -webkit-animation: myfirst 2s ; /* Chrome, Safari, Opera */
+    animation: myfirst 2s ;
+  }
+
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes myfirst {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  /* Standard syntax */
+  @keyframes myfirst {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+
+.test {
+    margin-top: 10%;
+    text-decoration: underline;
+}
+
+.logo {
+    padding-inline: 3.75rem;
+    margin-top: 55.375rem;
+}

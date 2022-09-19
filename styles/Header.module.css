@@ -1,0 +1,25 @@
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.syneBold {
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 73%;
+    letter-spacing: 0.2em;
+}
+
+.nav {
+    background: transparent;
+    box-shadow: none;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.logo {
+    margin-inline: 6.75rem;
+    align-items: center;
+}
