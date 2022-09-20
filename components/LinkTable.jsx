@@ -15,9 +15,7 @@ const links = [
     {link:"time to burn", desc:"12.5m Cruiser / Racer"},
 ]
 
-const description = [
-
-]
+var i = 0
 
 const LinkTable = () => {
   return (
@@ -26,7 +24,12 @@ const LinkTable = () => {
       {links.map((e) => (
         <div key={e}>
             <div className={styles.column}>
-                <Link style={{ textDecoration: 'none' }}><Typography className={styles.linkFont}>{e.link}</Typography></Link>
+                <Link style={{ textDecoration: 'none', display:'flex' }}>
+                  <Typography className={styles.linkNumber}>[{++i - 10}]</Typography>
+                  <a href='/'>
+                  <Typography className={styles.linkFont}>{e.link}</Typography>
+                  </a>
+                </Link>
                 <Typography className={styles.linkDesc}>{e.desc}</Typography>
             </div>
             <div className={styles.underLine}></div>

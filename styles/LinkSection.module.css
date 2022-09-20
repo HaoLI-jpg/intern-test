@@ -26,7 +26,7 @@
 
 .linkTable {
     z-index: 2;
-    margin-top: -50%;
+    margin-top: -55%;
     margin-left: 50%;
     width: 45%;
 }
@@ -35,7 +35,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     height: 0%;
-    border: 2px solid #0E1219;
+    border: 1px solid #0E1219;
 }
 
 .linkFont {
@@ -46,6 +46,21 @@
     line-height: 32px;
     /* or 100% */
     text-transform: uppercase;
+    color: #0E1219;
+}
+
+.linkNumber {
+
+    font-family: 'Oxygen Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* or 117% */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
     color: #0E1219;
 }
 
@@ -77,6 +92,8 @@
     text-align: right;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
     color: #0E1219;
 }
