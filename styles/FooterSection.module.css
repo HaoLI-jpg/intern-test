@@ -1,0 +1,59 @@
+.container {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(0deg, #A5B6BD, #A5B6BD),url("/assets/6.png");
+    background-blend-mode: normal, color, normal;
+    background-size: contain;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.button {
+    width: 20rem;
+    height: 6.625rem;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #F7F7F7;
+    position: fixed;
+    z-index: 3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.contactInfo {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4%;
+}
+
+.titleFont {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 84px;
+    line-height: 76px;
+    /* or 90% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.contactsFont {
+    font-family: 'Oxygen Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* or 117% */
+    padding-top: 1rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

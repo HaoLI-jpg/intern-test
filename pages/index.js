@@ -6,11 +6,13 @@ import EnterSection from '../components/EnterSection'
 import IntroSection from '../components/IntroSection'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { LinkSection } from '../components/LinkSection'
+import FooterSection from '../components/FooterSection'
+
 export default function Home() {
   return (
       <div>
         <Header />
-        <Parallax pages={4}>
+        <Parallax pages={4.3}>
           <ParallaxLayer
             offset={0}
           >
@@ -26,6 +28,11 @@ export default function Home() {
             offset={3}
             >
             <LinkSection />
+          </ParallaxLayer>
+          <ParallaxLayer
+            offset={4}
+            >
+            <FooterSection />
           </ParallaxLayer>
         </Parallax>
       </div>

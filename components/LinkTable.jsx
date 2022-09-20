@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material'
+import { Link, Typography } from '@mui/material'
 import React from 'react'
 import styles from "../styles/LinkSection.module.css"
 
@@ -26,7 +26,7 @@ const LinkTable = () => {
       {links.map((e) => (
         <div key={e}>
             <div className={styles.column}>
-                <Typography className={styles.linkFont}>{e.link}</Typography>
+                <Link style={{ textDecoration: 'none' }}><Typography className={styles.linkFont}>{e.link}</Typography></Link>
                 <Typography className={styles.linkDesc}>{e.desc}</Typography>
             </div>
             <div className={styles.underLine}></div>
