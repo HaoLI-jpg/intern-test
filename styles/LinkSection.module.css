@@ -1,0 +1,82 @@
+.title {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 84px;
+    line-height: 76px;
+    /* or 90% */
+    width: 40%;
+    text-transform: uppercase;
+    margin-top: 7.2%;
+    margin-left: 3%;
+    color: #0E1219;
+}
+
+.container {
+    background: #F7F7F7;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.sphere {
+    margin-top: 16%;
+    margin-left: -6.5%;
+}
+
+.linkTable {
+    z-index: 2;
+    margin-top: -50%;
+    margin-left: 50%;
+    width: 45%;
+}
+
+.underLine {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 0%;
+    border: 2px solid #0E1219;
+}
+
+.linkFont {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    /* or 100% */
+    text-transform: uppercase;
+    color: #0E1219;
+}
+
+.linkDesc {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    padding-top: 0.3rem;
+    text-align: right;
+    color: #0E1219;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.moreButton {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    /* or 100% */
+
+    text-align: right;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    color: #0E1219;
+}

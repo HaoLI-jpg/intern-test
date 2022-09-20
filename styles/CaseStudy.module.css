@@ -1,0 +1,128 @@
+.container {
+    position: fixed;
+    color: #F7F7F7;
+    margin-top: 73%;
+    margin-left: 4rem;
+    z-index: 3;
+    text-transform: uppercase;
+
+}
+
+.button {
+    padding-bottom: 2rem;
+    width: 30rem;
+}
+
+.buttonFont {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    /* or 100% */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+}
+
+.buttonFontSelected {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+    /* or 100% */
+
+    text-transform: uppercase;
+
+    color: #F7F7F7;
+}
+
+.tag {
+    font-family: 'Oxygen Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* or 117% */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    position: relative;
+    color: #F7F7F7;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.caseFont {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F7F7F7;
+    width: 140%;
+    margin-left: 3.5rem;
+}
+
+.image1Front {
+    position: fixed;
+    bottom: -70%;
+    margin-left: 57%;
+    z-index: 4;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 71.86%, #000000 100%), url("/assets/5.png");
+    background-size: cover;
+    background-blend-mode: multiply, normal;
+}
+
+.image1Back {
+    position: fixed;
+    bottom: -70%;
+    margin-left: 57%;
+    z-index: 1;
+    background: linear-gradient(0deg, rgba(14, 18, 25, 0.8), rgba(14, 18, 25, 0.8)), url("/assets/5.png");
+    background-size: cover;
+    background-blend-mode: multiply, normal;
+}
+
+.image2Front {
+    position: fixed;
+    bottom: -82.5%;
+    margin-left: 53.5%;
+    z-index: 4;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 71.86%, #000000 100%), url("/assets/4.png");
+    background-size: cover;
+    background-blend-mode: multiply, normal;
+}
+
+.image2Back{
+    position: fixed;
+    bottom: -82.5%;
+    margin-left: 53.5%;
+    z-index: 2;
+    background: linear-gradient(0deg, rgba(14, 18, 25, 0.6), rgba(14, 18, 25, 0.6)), url("/assets/4.png");
+    background-size: cover;
+    background-blend-mode: multiply, normal;
+}
+
+
+.image3Front {
+    position: fixed;
+    bottom: -100%;
+    margin-left: 50%;
+    z-index: 4;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 71.86%, #000000 100%), url("/assets/3.png");
+    background-size: cover;
+    background-blend-mode: multiply, normal;
+}
+
+.image3Back{
+    position: fixed;
+    bottom: -100%;
+    margin-left: 50%;
+    z-index: 3;
+    background: linear-gradient(0deg, rgba(14, 18, 25, 0.6), rgba(14, 18, 25, 0.6)), url("/assets/3.png");
+    background-size: cover;
+    background-blend-mode: multiply, normal;
+}
+
+

@@ -23,3 +23,12 @@
     margin-inline: 6.75rem;
     align-items: center;
 }
+
+.bg {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(14, 18, 25, 0) 0%, rgba(14, 18, 25, 0.4) 100%);
+    transform: rotate(-180deg);
+    z-index: 10;
+}

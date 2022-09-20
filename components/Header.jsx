@@ -9,7 +9,8 @@ import styles from '../styles/Header.module.css'
 
 function Header() {
   return (
-    <div>
+    <div className={styles.container}>
+        <div className={styles.bg} ></div>
 
         <AppBar position="fixed" className={styles.nav}>
             <Toolbar className={styles.toolbar}>

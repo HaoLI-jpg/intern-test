@@ -5,8 +5,7 @@ import Header from '../components/header'
 import EnterSection from '../components/EnterSection'
 import IntroSection from '../components/IntroSection'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-import { PictureSection } from '../components/PictureSection'
-
+import { LinkSection } from '../components/LinkSection'
 export default function Home() {
   return (
       <div>
@@ -22,6 +21,11 @@ export default function Home() {
             offset={1}
             >
             <IntroSection />
+          </ParallaxLayer>
+          <ParallaxLayer
+            offset={3}
+            >
+            <LinkSection />
           </ParallaxLayer>
         </Parallax>
       </div>
